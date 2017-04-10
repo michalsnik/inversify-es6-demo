@@ -10,4 +10,7 @@ container.bind(TYPES.RepairService).to(RepairService);
 container.bind(TYPES.Hammer).to(Hammer);
 container.bind(TYPES.Wrench).to(Wrench);
 
+container.bind(TYPES.Tool).to(Hammer);
+container.bind(TYPES.Tool).to(Wrench);
+
 export default container;
